@@ -1,0 +1,28 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'api/bin/**/*'
+    - 'api/db/**/*'
+    - 'api/vendor/**/*'
+
+Layout/LineLength:
+  Max: 100
+  IgnoredPatterns: ['(\A|\s)#']
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
