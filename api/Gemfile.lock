@@ -157,16 +157,16 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
-  importmap-rails
+  importmap-rails (~> 1.0, >= 1.0.1)
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.0)
-  sprockets-rails
+  sprockets-rails (~> 3.4, >= 3.4.2)
   tzinfo-data
   web-console
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 3.0.2p107
 
 BUNDLED WITH
-   2.1.4
+   2.2.22
