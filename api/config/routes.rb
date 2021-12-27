@@ -11,6 +11,14 @@
 #                                          PATCH  /categories/:id(.:format)                                                                         categories#update
 #                                          PUT    /categories/:id(.:format)                                                                         categories#update
 #                                          DELETE /categories/:id(.:format)                                                                         categories#destroy
+#                                     tags GET    /tags(.:format)                                                                                   tags#index
+#                                          POST   /tags(.:format)                                                                                   tags#create
+#                                  new_tag GET    /tags/new(.:format)                                                                               tags#new
+#                                 edit_tag GET    /tags/:id/edit(.:format)                                                                          tags#edit
+#                                      tag GET    /tags/:id(.:format)                                                                               tags#show
+#                                          PATCH  /tags/:id(.:format)                                                                               tags#update
+#                                          PUT    /tags/:id(.:format)                                                                               tags#update
+#                                          DELETE /tags/:id(.:format)                                                                               tags#destroy
 #            rails_postmark_inbound_emails POST   /rails/action_mailbox/postmark/inbound_emails(.:format)                                           action_mailbox/ingresses/postmark/inbound_emails#create
 #               rails_relay_inbound_emails POST   /rails/action_mailbox/relay/inbound_emails(.:format)                                              action_mailbox/ingresses/relay/inbound_emails#create
 #            rails_sendgrid_inbound_emails POST   /rails/action_mailbox/sendgrid/inbound_emails(.:format)                                           action_mailbox/ingresses/sendgrid/inbound_emails#create
@@ -41,4 +49,5 @@
 
 Rails.application.routes.draw do
   resources :categories
+  resources :tags
 end
