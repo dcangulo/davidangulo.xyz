@@ -38,7 +38,7 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
     rubocop-rake (0.6.0)
       rubocop (~> 1.0)
-    rubocop-rspec (2.6.0)
+    rubocop-rspec (2.7.0)
       rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
     tzinfo (2.0.4)
@@ -48,13 +48,14 @@ GEM
 PLATFORMS
   x86_64-darwin-20
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   rubocop (~> 1.23)
   rubocop-performance (~> 1.12)
   rubocop-rails (~> 2.12)
   rubocop-rake (~> 0.6.0)
-  rubocop-rspec (~> 2.6)
+  rubocop-rspec (~> 2.7)
 
 RUBY VERSION
    ruby 3.0.2p107
