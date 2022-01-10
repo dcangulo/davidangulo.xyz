@@ -8,6 +8,6 @@ ruby File.read('.ruby-version').strip
 # Use rubocop for checking syntax
 gem 'rubocop', '~> 1.23'
 gem 'rubocop-performance', '~> 1.12'
-gem 'rubocop-rails', '~> 2.12'
+gem 'rubocop-rails', '~> 2.13'
 gem 'rubocop-rake', '~> 0.6.0'
 gem 'rubocop-rspec', '~> 2.6'
