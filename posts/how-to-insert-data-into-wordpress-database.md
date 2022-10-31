@@ -29,7 +29,9 @@ function myFunction() {
 ```
 
 For example, I have a table named `wp_myExampleTable` that looks like this:
+
 ![db-table](images/how-to-insert-data-into-wordpress-database/db-table.jpeg)
+
 *Figure 1. Newly created table named `wp_myExampleTable`.*
 
 * `content_id` is the primary key which has a type of `integer` with auto increment.
@@ -50,6 +52,7 @@ function myFunction() {
 If the code runs without any error then the data is successfully inserted into the database. The table `wp_myExampleTable` should now look like this:
 
 ![db-table](images/how-to-insert-data-into-wordpress-database/db-table-with-record.jpeg)
+
 *Figure 2. `wp_myExampleTable` after running the script.*
 
 Assuming that we run this script at exactly December 19, 2017 at 1:00 in the afternoon.
@@ -73,6 +76,7 @@ function mySecondFunction() {
 ```
 
 ![db-table](images/how-to-insert-data-into-wordpress-database/db-table-with-multiple-records.jpeg)
+
 *Figure 3. `wp_myExampleTable` after using the other method.*
 
 The database table should look like this if we successfully inserted the new data.
