@@ -3,9 +3,9 @@
 -
   type: github
   icon: 'fab fa-github'
--
-  type: twitter
-  icon: 'fab fa-twitter'
+# -
+#   type: twitter
+#   icon: 'fab fa-twitter'
 -
   type: email
   icon: 'fas fa-envelope'
@@ -14,17 +14,15 @@
   type: rss
   icon: 'fas fa-rss'
   noblank: true
-
-# Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your mastodon account page
-# -
-#   type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-# -
-#   type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+-
+  type: linkedin
+  icon: 'fab fa-linkedin'
+  url: 'https://www.linkedin.com/in/dcangulo'
+-
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url: 'https://stackoverflow.com/users/9375533/dcangulo'
