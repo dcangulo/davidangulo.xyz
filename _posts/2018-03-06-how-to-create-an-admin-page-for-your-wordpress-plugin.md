@@ -48,7 +48,7 @@ function addAdminPageContent() {
 }
 ```
 
-The text **My Plugin** will be the name of our menu. `adminPageContent` is the name of the function that we have declared in Step 2. `dashicons-wordpress` will be the icon for our menu. You can select for more in https://developer.wordpress.org/resource/dashicons.
+The text **My Plugin** will be the name of our menu. `adminPageContent` is the name of the function that we have declared in Step 2. `dashicons-wordpress` will be the icon for our menu. You can select for more in [https://developer.wordpress.org/resource/dashicons](https://developer.wordpress.org/resource/dashicons).
 
 ## Complete code:
 
