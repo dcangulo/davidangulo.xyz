@@ -1,3 +1,7 @@
+---
+categories: ['Website Development']
+tags: ['WordPress', 'MySQL', 'PHP']
+---
 # how to insert data into wordpress database
 
 To insert data into WordPress database, we have learned that you need to connect the database. If you don't know how you can refer to the previous topic entitled **[How to connect to WordPress database](https://www.davidangulo.xyz/wp/website-development/how-to-connect-to-wordpress-database/)**.
@@ -30,7 +34,7 @@ function myFunction() {
 
 For example, I have a table named `wp_myExampleTable` that looks like this:
 
-![db-table](images/how-to-insert-data-into-wordpress-database/db-table.jpeg)
+![db-table](/assets/images/posts/how-to-insert-data-into-wordpress-database/db-table.jpeg)
 
 *Figure 1. Newly created table named `wp_myExampleTable`.*
 
@@ -51,7 +55,7 @@ function myFunction() {
 
 If the code runs without any error then the data is successfully inserted into the database. The table `wp_myExampleTable` should now look like this:
 
-![db-table](images/how-to-insert-data-into-wordpress-database/db-table-with-record.jpeg)
+![db-table](/assets/images/posts/how-to-insert-data-into-wordpress-database/db-table-with-record.jpeg)
 
 *Figure 2. `wp_myExampleTable` after running the script.*
 
@@ -75,7 +79,7 @@ function mySecondFunction() {
 } 
 ```
 
-![db-table](images/how-to-insert-data-into-wordpress-database/db-table-with-multiple-records.jpeg)
+![db-table](/assets/images/posts/how-to-insert-data-into-wordpress-database/db-table-with-multiple-records.jpeg)
 
 *Figure 3. `wp_myExampleTable` after using the other method.*
 
