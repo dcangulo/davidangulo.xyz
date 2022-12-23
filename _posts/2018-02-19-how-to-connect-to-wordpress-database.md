@@ -2,8 +2,6 @@
 categories: ['Website Development']
 tags: ['WordPress', 'MySQL', 'PHP']
 ---
-# how to connect to wordpress database
-
 Connect to WordPress database using PHP and MySQL. In PHP you can connect and modify databases in which MySQL is the most popular database system for this.
 
 Database tables holds the data found in your website. Tables are collection of related data that consists of columns and rows. For you to be able to modify these data, you need to connect to the database. There are many ways to connect to the database and WordPress made it easier.

@@ -2,8 +2,6 @@
 categories: ['Website Development']
 tags: ['PHP', 'SEO']
 ---
-# how to create seo friendly url in php
-
 In this tutorial, we would be creating a PHP function that will convert a string to create an SEO friendly URL that can be used on your website.
 
 We will also use some predefined PHP functions such as `strtolower` and `preg_replace` for this tutorial. The goal of this tutorial is to create an SEO friendly URL from a string.

@@ -2,8 +2,6 @@
 categories: ['Website Development']
 tags: ['WordPress', 'MySQL', 'PHP']
 ---
-# how to insert data into wordpress database
-
 To insert data into WordPress database, we have learned that you need to connect the database. If you don't know how you can refer to the previous topic entitled **[How to connect to WordPress database](https://www.davidangulo.xyz/wp/website-development/how-to-connect-to-wordpress-database/)**.
 
 After a successful connection to the database, we should start by populating it with data. We will once again use the `$wpdb` object to make modifications in the database.

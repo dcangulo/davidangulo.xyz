@@ -2,8 +2,6 @@
 categories: ['Website Development']
 tags: ['PHP']
 ---
-# how to generate a random string in php
-
 In this tutorial, we would be dealing with `str_repeat`, `str_shuffle`, and `substr` to generate a random string in PHP.
 
 Random strings can be used in generating things that use random strings such as tokens, initial password, and some other things that need to be hard to guess.
