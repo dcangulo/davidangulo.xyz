@@ -12,7 +12,6 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: 'Asia/Manila'
 
@@ -35,7 +34,7 @@ url: 'https://www.davidangulo.xyz'
 
 # change to your github username
 github:
-  username: dcangulo 
+  username: dcangulo
 
 # change to your twitter username
 # twitter:
@@ -53,7 +52,8 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/dcangulo
 
-google_site_verification:               # fill in to your verification string
+# fill in to your verification string
+google_site_verification: 
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -92,7 +92,8 @@ avatar: 'https://avatars.githubusercontent.com/u/36528176'
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -102,10 +103,10 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:              # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: 'dcangulo/davidangulo.xyz'
+    repo_id: 'R_kgDOGkwshA'
+    category: 'Announcements'
+    category_id: 'DIC_kwDOGkwshM4CTPZi'
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
