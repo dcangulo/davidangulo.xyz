@@ -29,7 +29,7 @@ See: [https://reactnavigation.org/docs/handling-safe-area/#use-the-hook-for-more
 ## Sample Code:
 ```jsx
 import * as React from 'react';
-import { Text, View, StatusBar } from 'react-native';
+import { Text, View, StatusBar, StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 import { useSafeAreaInsets, SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -43,9 +43,10 @@ export default function App() {
 
 function ChildScreen() {
   const insets = useSafeAreaInsets();
+  const 
   
   return (
-    <View style={{ flex: 1, justifyContent: 'center' }}>
+    <View style={styles.container}>
       <Text>
         {insets.top}
       </Text>
@@ -58,6 +59,13 @@ function ChildScreen() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1, 
+    justifyContent: 'center',
+  },
+});
 ```
 
 ### Output:
