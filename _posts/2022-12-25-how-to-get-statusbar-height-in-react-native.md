@@ -43,7 +43,6 @@ export default function App() {
 
 function ChildScreen() {
   const insets = useSafeAreaInsets();
-  const 
   
   return (
     <View style={styles.container}>
