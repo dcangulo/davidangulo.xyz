@@ -15,14 +15,14 @@ Or if you want to directly install it, you can hover to **Plugins** in your side
 
 On the search box, you may type **“Separate Login Form”** or **“David Angulo”**. Make sure to install the plugin **Separate Login Form** and it is authored by **David Angulo**.
 
-![add-plugin](/assets/images/posts/how-to-crate-a-separate-login-page-in-wordpress/add-plugin.jpg)
+![add-plugin](/assets/images/posts/how-to-create-a-separate-login-page-in-wordpress/add-plugin.jpg)
 
 *Picture 1.1. Installing the Separate Login Form plugin by David Angulo.*
 
 ## Step 2: Activate the Separate Login Form plugin.
 Click the **Plugins** in your sidebar menu, if your installation succeeds then you should see the **Separate Login Form** plugin in the list. Click **Activate** if it is not activated yet.
 
-![activate-plugin](/assets/images/posts/how-to-crate-a-separate-login-page-in-wordpress/activate-plugin.jpg)
+![activate-plugin](/assets/images/posts/how-to-create-a-separate-login-page-in-wordpress/activate-plugin.jpg)
 
 *Picture 2.1. Activating the Separate Login Form plugin by David Angulo.*
 
@@ -41,7 +41,7 @@ On the content box, paste the following shortcode.
 
 This shortcode contains your login form. It will be up to you on how you will design your page.
 
-![use-shortcode](/assets/images/posts/how-to-crate-a-separate-login-page-in-wordpress/use-shortcode.jpg)
+![use-shortcode](/assets/images/posts/how-to-create-a-separate-login-page-in-wordpress/use-shortcode.jpg)
 
 *Picture 3.1. Creating a login page.*
 
@@ -50,7 +50,7 @@ Click the **Publish** button if you are contented with your editing.
 
 Since we have used **Login** as our title, then we may now access our separate login page on `yourdomain.com/login`.
 
-![result](/assets/images/posts/how-to-crate-a-separate-login-page-in-wordpress/result.jpg)
+![result](/assets/images/posts/how-to-create-a-separate-login-page-in-wordpress/result.jpg)
 
 *Picture 4.1. Published login page output.*
 
