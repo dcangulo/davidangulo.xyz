@@ -1,6 +1,6 @@
 ---
 categories: ['Mobile App Development']
-tags: ['React Native']
+tags: ['React Native', 'Expo', 'JavaScript', 'JSX']
 ---
 There are different ways of getting the `statusBarHeight` in React Native and I will show some of the ways.
 
