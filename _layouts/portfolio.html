@@ -1,0 +1,74 @@
+---
+layout: page
+---
+<style>
+  .portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-item {
+    border: none !important;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+  }
+
+  @media (max-width: 640px) {
+    .portfolio-item {
+      width: 100%;
+    }
+  }
+
+  .portfolio-item-image {
+    background: #000 !important;
+    height: 300px;
+    transition: transform 0.7s;
+    width: 100%;
+    z-index: 1;
+  }
+
+  @media (hover: hover) {
+    .portfolio-item:hover .portfolio-item-image {
+      transform: scale(1.1);
+    }
+
+    .portfolio-item:hover .portfolio-item-title {
+      opacity: 1;
+      transition: all 0.7s linear;
+    }
+  }
+
+  .portfolio-item-title {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  @media (hover: hover) {
+    .portfolio-item-title {
+      opacity: 0;
+    }
+  }
+</style>
+
+<div class="portfolio-container">
+  {% for item in site.portfolio %}
+    <a href="{{ item.url }}" class="portfolio-item">
+      <img src="{{ item.img }}" class="portfolio-item-image">
+      <div class="portfolio-item-title">
+        {{ item.title }}
+      </div>
+    </a>
+  {% endfor %}
+</div>
