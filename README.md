@@ -15,8 +15,8 @@ Personal Jekyll Blog
 
 ## License
 ### Posts
-All files inside `_posts` and `assets/images/posts` directory are licensed under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), see [LICENSE](_posts/LICENSE).
+All files in the following directories `_posts`, `_portfolio`, and `assets` are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), see [LICENSE](LICENSE-content).
 
 ### Other Files
 Copyright © 2022 David Angulo, released under the MIT license, see [LICENSE](LICENSE).
