@@ -152,4 +152,17 @@ post = Post.last # or any Post record
 post.attach_file!(base64_file, :image)
 ```
 
+## Bonus
+
+We could also set a custom directory where our files will be saved.
+
+```diff
+  self.send(association).attach(
++   key: ['custom-directory', filename].join('/'),  
+    io: StringIO.new(decoded_base64),
+    filename: filename,
+    content_type: mime_type
+  )
+```
+
 That's it. We now learned to attach a base64 file to ActiveStorage in Rails.
