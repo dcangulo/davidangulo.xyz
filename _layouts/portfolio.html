@@ -63,7 +63,7 @@ layout: page
 </style>
 
 <div class="portfolio-container">
-  {% for item in site.portfolio %}
+  {% for item in site.portfolio reversed %}
     <a href="{{ item.url }}" class="portfolio-item">
       <img src="{{ item.img }}" class="portfolio-item-image">
       <div class="portfolio-item-title">
