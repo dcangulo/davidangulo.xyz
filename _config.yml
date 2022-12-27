@@ -144,6 +144,7 @@ collections:
     sort_by: order
   portfolio:
     output: true
+    sort_by: order
 
 defaults:
   - scope:
