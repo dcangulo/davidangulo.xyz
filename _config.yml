@@ -146,6 +146,8 @@ collections:
   portfolio:
     output: true
     sort_by: order
+  policies:
+    output: true
 
 defaults:
   - scope:
@@ -182,6 +184,12 @@ defaults:
     values:
       layout: page
       permalink: /portfolio/:title/
+  - scope:
+      path: ''
+      type: policies
+    values:
+      layout: page
+      permalink: /:title/
 
 sass:
   style: compressed

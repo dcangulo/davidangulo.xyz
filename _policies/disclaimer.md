@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Disclaimer'
 ---
 All opinions and views on this website are purely individual opinions.

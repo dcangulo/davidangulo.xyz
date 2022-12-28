@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Terms of Use'
 ---
 Please read these Terms and Conditions (“Terms”, “Terms and Conditions”, “Terms of Use”) carefully before using the [https://www.davidangulo.xyz](https://www.davidangulo.xyz) website (the “Service”) operated by David Angulo (“us”, “we”, or “our”).
