@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'DENCIO.COM'
-order: 9
+order: 8
 ---
 ## Project Information
 **DENCIO.COM** is a blog site for a local blogger.
