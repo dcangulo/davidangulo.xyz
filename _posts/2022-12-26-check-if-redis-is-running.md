@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Redis']
+title: 'Check if Redis is running'
 ---
 ## Redis CLI
 There is a simple command to check whether redis is running or not.

@@ -1,7 +1,7 @@
 ---
 categories: ['General Programming']
 tags: ['C', 'C++']
-title: 'How To Convert Char To Int in C/C++'
+title: 'How to convert char to int in C/C++'
 ---
 I have encountered a problem when taking CS50's Problem Set 1 where I need to convert a `char` number to `int`.
 

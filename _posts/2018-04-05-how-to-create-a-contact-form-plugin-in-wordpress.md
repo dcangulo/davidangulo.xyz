@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to create a contact form plugin in WordPress'
 ---
 In this tutorial, we would be dealing with how to create a contact form plugin in WordPress.
 

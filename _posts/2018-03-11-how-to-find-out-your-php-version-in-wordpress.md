@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin']
+title: 'How to find out your PHP version in WordPress'
 ---
 This tutorial will guide you to find out what PHP version does your web hosting offer. Maybe you could also consider migrating from one web host to another if it does not meet your requirements.
 

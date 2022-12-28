@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Authentication', 'Devise', 'Ruby', 'Rails', 'Ruby on Rails']
+title: 'Rails authentication with Devise'
 ---
 In this tutorial, we will be dealing with Rails authentication with Devise.
 

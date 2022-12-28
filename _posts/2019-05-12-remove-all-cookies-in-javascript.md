@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['JavaScript', 'Cookies']
+title: 'Remove all cookies in JavaScript'
 ---
 The following snippet allows you to remove all cookies in JavaScript (client-side).
 

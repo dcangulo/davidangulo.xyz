@@ -1,7 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['FullCalendar', 'JavaScript', 'Next.js', 'React']
-title: 'How To Use FullCalendar In Next.js'
+title: 'How to use FullCalendar in Next.js'
 ---
 In this tutorial, we would be learning on how to use FullCalendar in Next.js.
 

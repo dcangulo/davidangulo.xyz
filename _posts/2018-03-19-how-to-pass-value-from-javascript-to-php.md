@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['JavaScript', 'PHP']
+title: 'How to pass value from JavaScript to PHP'
 ---
 In this tutorial we would be learning on how to pass value from JavaScript to PHP.
 

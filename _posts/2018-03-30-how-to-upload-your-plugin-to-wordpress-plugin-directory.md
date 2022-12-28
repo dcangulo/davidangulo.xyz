@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['SVN', 'WordPress', 'WordPress Plugin']
+title: 'How to upload your plugin to WordPress plugin directory'
 ---
 In this tutorial, I will guide you on how to upload your plugin to WordPress plugin directory.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP']
+title: 'How to verify email address in PHP'
 ---
 In this tutorial, I will guide you on how to verify email address in PHP.
 

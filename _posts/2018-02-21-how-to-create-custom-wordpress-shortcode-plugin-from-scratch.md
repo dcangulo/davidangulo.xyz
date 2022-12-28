@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin', 'PHP']
+title: 'How to create custom WordPress shortcode plugin from scratch'
 ---
 In this tutorial, we would be creating a custom WordPress shortcode plugin.
 

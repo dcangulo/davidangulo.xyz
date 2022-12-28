@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP']
+title: 'How to resize an image in PHP'
 ---
 In this tutorial, we will learn to resize an image in PHP.
 

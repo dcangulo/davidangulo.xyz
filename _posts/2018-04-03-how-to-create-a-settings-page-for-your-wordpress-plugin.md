@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to create a settings page for your WordPress plugin'
 ---
 In this tutorial, we would be learning on how to create a settings page for your WordPress plugin.
 

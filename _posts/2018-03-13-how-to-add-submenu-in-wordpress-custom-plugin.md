@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to add submenu in WordPress custom plugin'
 ---
 This tutorial will guide you on how to add submenu to your custom WordPress plugin. Many big plugins have this functionality such as Yoast SEO plugin. So if you’re building a plugin you might need to add another page for it.
 

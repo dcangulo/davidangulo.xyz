@@ -1,6 +1,7 @@
 ---
 categories: ['General Programming']
 tags: ['UUID']
+title: 'Advantages and Disadvantages of UUID'
 ---
 ## What is UUID?
 A **universally unique identifier (UUID)** also known as **globally unique identifier (GUID)** is a 128-bit number used to identify computer systems information.

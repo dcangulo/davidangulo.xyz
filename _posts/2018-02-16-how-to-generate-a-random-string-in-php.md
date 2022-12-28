@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP']
+title: 'How to generate a random string in PHP'
 ---
 In this tutorial, we would be dealing with `str_repeat`, `str_shuffle`, and `substr` to generate a random string in PHP.
 

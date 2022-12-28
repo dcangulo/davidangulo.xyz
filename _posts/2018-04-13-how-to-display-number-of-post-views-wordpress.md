@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin']
+title: 'How to display number of post views WordPress'
 ---
 In this tutorial, we would be learning on how to display number of post views WordPress using a WordPress plugin.
 

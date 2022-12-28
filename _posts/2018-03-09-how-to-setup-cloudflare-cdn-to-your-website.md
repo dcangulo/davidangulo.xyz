@@ -1,7 +1,7 @@
 ---
 categories: ['DevOps']
 tags: ['CDN', 'Cloudflare']
-title: 'How To Setup Cloudfare CDN To your Website'
+title: 'How to setup Cloudfare CDN to your website'
 ---
 This tutorial will guide you to setup Cloudflare CDN to your website. This aims to share the knowledge about CDN and why you should use it.
 

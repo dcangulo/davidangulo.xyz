@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Cron', 'PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to create a cron job in WordPress'
 ---
 In this tutorial, we would be learning how to create cron job in WordPress.
 

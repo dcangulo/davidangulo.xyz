@@ -1,7 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['FullCalendar', 'JavaScript', 'Next.js', 'React']
-title: 'Dynamically Import Class With No SSR In Next.js'
+title: 'Dynamically import class with no SSR in Next.js'
 ---
 In this tutorial, I will show you how to dynamically import class with no SSR in Next.js.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['General Programming']
 tags: ['JavaScript']
+title: 'Add an element to array in JavaScript'
 ---
 The following snippets allows you to add an element to array in JavaScript.
 

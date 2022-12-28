@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin']
+title: 'How to create a separate login page in WordPress'
 ---
 In this tutorial, I will show you how to create a separate login page in WordPress.
 

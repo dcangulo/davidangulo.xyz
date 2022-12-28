@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to create a dashboard widget in WordPress'
 ---
 In this tutorial, we would be learning on how to create a dashboard widget in WordPress.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['MySQL', 'PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to create a CRUD operations plugin in WordPress'
 ---
 In this tutorial, we would learn how to create crud operations plugin in WordPress.
 

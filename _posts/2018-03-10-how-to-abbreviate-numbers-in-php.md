@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP']
+title: 'How to abbreviate numbers in PHP'
 ---
 In this tutorial, we would be using a PHP function to abbreviate numbers in PHP. This will convert big numbers such as 1000 to 1K, 1000000 to 1M and so on. This will support up to trillions of numbers.
 

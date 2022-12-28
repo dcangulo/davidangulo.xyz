@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Sidekiq']
+title: 'Check if Sidekiq is running'
 ---
 There is a simple command to check whether sidekiq is running or not.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP']
+title: 'Converting timesamp to time ago in PHP like Facebook'
 ---
 In this tutorial, we will be learning on how to convert timestamp to time ago in PHP.
 

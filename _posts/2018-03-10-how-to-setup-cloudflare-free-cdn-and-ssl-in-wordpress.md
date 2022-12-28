@@ -1,6 +1,7 @@
 ---
 categories: ['DevOps']
 tags: ['CDN', 'Cloudflare', 'SSL', 'WordPress', 'WordPress Plugin']
+title: 'How to setup Cloudfalre free CDN and SSL in WordPress'
 ---
 This tutorial will guide you on how to setup Cloudflare in WordPress and how CDN makes your site load faster and more secured through SSL technology on your WordPress website.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to add custom column in WordPress post'
 ---
 In this tutorial, we would be learning on how to add custom column in WordPress post.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Ruby', 'Rails', 'Ruby on Rails', 'File Upload', 'ActiveStorage']
+title: 'Rails file upload using ActiveStorage'
 ---
 In this tutorial, we would be learning to upload files in Rails. Rails file upload have become easier since the release of [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html). It allows us to handle file uploads without using any gem.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['MySQL', 'PHP', 'WordPress', 'WordPress Plugin']
+title: 'How to create database tables when your plugin is activated'
 ---
 In this tutorial, we would be learning on how to create database tables when your plugin is activated.
 

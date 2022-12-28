@@ -1,7 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Ruby', 'Rails', 'Ruby on Rails', 'File Upload', 'ActiveStorage', 'base64']
-title: 'Attach Base64 File On ActiveStorage Rails'
+title: 'Attach base64 file on ActiveStorage Rails'
 ---
 [Base64](https://en.wikipedia.org/wiki/Base64) has been my go-to encoding when uploading files from my external front-end apps such as React Native to my Rails APIs.
 

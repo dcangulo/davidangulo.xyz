@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin', 'PHP', 'File Upload']
+title: 'How to upload files in WordPress programatically'
 ---
 In this tutorial, we are going to upload files in WordPress programmatically. Maybe you have already seen PHP File Upload and it simply didn’t work. Even if it does work, it is not recommended to use it.
 

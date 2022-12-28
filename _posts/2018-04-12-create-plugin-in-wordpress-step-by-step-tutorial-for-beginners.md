@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['MySQL', 'PHP', 'SVN', 'WordPress', 'WordPress Plugin']
+title: 'Create plugin in WordPress step by step tutorial for beginners'
 ---
 This tutorial will guide you on how to create plugin in WordPress.
 

@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin']
+title: 'How to display the last updated date of your posts in WordPress'
 ---
 In this tutorial, we would be learning on how to display the last updated date of your posts in WordPress.
 

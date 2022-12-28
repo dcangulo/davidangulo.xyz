@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['Authentication', 'Ruby', 'Rails', 'Ruby on Rails']
+title: 'How to create a basic authentication in Ruby on Rails'
 ---
 In this tutorial, we will be creating a basic authentication in Ruby on Rails.
 

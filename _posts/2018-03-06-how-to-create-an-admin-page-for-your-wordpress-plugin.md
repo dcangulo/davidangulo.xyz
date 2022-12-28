@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['WordPress', 'WordPress Plugin', 'PHP']
+title: 'How to create an admin page for your WordPress plugin'
 ---
 In this tutorial, we are going to create an admin page for your WordPress plugin.
 

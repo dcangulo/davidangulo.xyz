@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PHP', 'PDF']
+title: 'How to convert HTML to PDF in PHP'
 ---
 In this tutorial, we will be learning on how to convert HTML to PDF in PHP.
 

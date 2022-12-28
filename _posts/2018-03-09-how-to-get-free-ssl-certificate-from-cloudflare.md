@@ -1,7 +1,7 @@
 ---
 categories: ['DevOps']
 tags: ['CDN', 'Cloudflare', 'SSL']
-title: 'How To Get Free SSL Certificate From Cloudflare'
+title: 'How to get free SSL certificate from Cloudflare'
 ---
 In this tutorial, I’m going to show you how to get a free SSL certificate from Cloudflare. This will turn your website from http to https making it more secure, reliable and more trusted among your users.
 

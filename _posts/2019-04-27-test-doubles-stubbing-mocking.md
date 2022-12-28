@@ -1,6 +1,7 @@
 ---
 categories: ['General Programming']
 tags: ['Ruby', 'Testing', 'RSpec']
+title: 'Test Doubles Stubbing & Mocking'
 ---
 ## What are test doubles?
 Test doubles are a substitute for production apps used for testing purposes. There are at least five (5) types of test doubles according to Gerard Meszaros but we are going to focus on two (2) which are **stubbing** and **mocking**.

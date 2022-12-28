@@ -1,6 +1,7 @@
 ---
 categories: ['Website Development']
 tags: ['PayPal', 'Payment Gateway', 'Ruby', 'Rails', 'Ruby on Rails']
+title: 'Simple PayPal checkout in Ruby on Rails using Orders API v2'
 ---
 Recently, Paypal archived most of their SDK repositories that uses v1 of the API and added a deprecation notice. This includes the [PayPal-Ruby-SDK](https://github.com/paypal/PayPal-Ruby-SDK).
 
