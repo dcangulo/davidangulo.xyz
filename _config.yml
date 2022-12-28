@@ -27,7 +27,7 @@ tagline: software engineer
 
 # used by seo meta and the atom feed
 description: >-                       
-  My name is David Angulo, a freelance website &amp; mobile application developer.
+  My name is David Angulo, a software engineer.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.davidangulo.xyz'
@@ -53,13 +53,14 @@ social:
     - https://www.linkedin.com/in/dcangulo
 
 # fill in to your verification string
-google_site_verification: 
+google_site_verification: '6l8pLjgeDhQ1QNngE_BcMmvzv3NRMsMyj3t9fVS-v6Q'
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  # fill in your Google Analytics ID
+  id: 'UA-115388054-1'
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -76,7 +77,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -179,6 +180,7 @@ defaults:
       path: ''
       type: portfolio
     values:
+      layout: page
       permalink: /portfolio/:title/
 
 sass:

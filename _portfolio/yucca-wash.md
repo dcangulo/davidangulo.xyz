@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Yucca Wash'
 order: 6
 ---

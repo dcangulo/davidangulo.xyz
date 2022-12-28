@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "I'm Carla"
 order: 4
 ---

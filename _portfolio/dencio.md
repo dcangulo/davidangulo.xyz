@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'DENCIO.COM'
 order: 8
 ---

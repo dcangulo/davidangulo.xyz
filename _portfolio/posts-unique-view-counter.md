@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Posts Unique View Counter'
 order: 3
 ---

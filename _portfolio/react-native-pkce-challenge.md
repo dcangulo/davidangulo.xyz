@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'React Native PKCE Challenge'
 order: 10
 ---

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Separate Login Form'
 order: 2
 ---

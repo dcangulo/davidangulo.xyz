@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Wow Pinoy Gifts'
 order: 1
 ---

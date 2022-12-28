@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'Usapang Brew'
 order: 5
 ---

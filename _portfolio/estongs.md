@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Estong's Boneless Lechon Belly"
 order: 9
 ---

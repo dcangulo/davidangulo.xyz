@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'React Native Outside Press'
 order: 12
 ---
