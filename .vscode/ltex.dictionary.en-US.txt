@@ -16,3 +16,4 @@ ActiveStorage
 sidekiq
 redis
 npm
+FullCalendar
