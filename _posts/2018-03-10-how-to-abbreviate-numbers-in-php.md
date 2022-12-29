@@ -27,7 +27,7 @@ if ($num >= 0 && $num < 1000) {
 }
 ```
 
-If the number is between 0 to 999, I would just simply display the number as it is.
+If the number is between 0 and 999, I would just simply display the number as it is.
 
 ```php
 else if ($num >= 1000 && $num < 1000000) {     

@@ -11,5 +11,4 @@ order: 3
 
 ## Screenshots
 ![output](/assets/images/portfolio/posts-unique-view-counter/output.jpg)
-
-*Picture 1: Output*
+_Picture 1: Output_

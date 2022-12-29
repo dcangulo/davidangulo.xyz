@@ -3,18 +3,18 @@ categories: ['Website Development']
 tags: ['PayPal', 'Payment Gateway', 'Ruby', 'Rails', 'Ruby on Rails']
 title: 'Simple PayPal checkout in Ruby on Rails using Orders API v2'
 ---
-Recently, Paypal archived most of their SDK repositories that uses v1 of the API and added a deprecation notice. This includes the [PayPal-Ruby-SDK](https://github.com/paypal/PayPal-Ruby-SDK).
+Recently, PayPal archived most of their SDK repositories that uses v1 of the API and added a deprecation notice. This includes the [PayPal-Ruby-SDK](https://github.com/paypal/PayPal-Ruby-SDK).
 
-In this tutorial, we would be moving away from [PayPal-Ruby-SDK](https://github.com/paypal/PayPal-Ruby-SDK) and use [Checkout-Ruby-SDK](https://github.com/paypal/Checkout-Ruby-SDK) as this is the recommended according to the Paypal developer documentation. The Checkout-Ruby-SDK uses v2 of the API instead of the deprecated v1.
+In this tutorial, we would be moving away from [PayPal-Ruby-SDK](https://github.com/paypal/PayPal-Ruby-SDK) and use [Checkout-Ruby-SDK](https://github.com/paypal/Checkout-Ruby-SDK) as this is the recommended according to the PayPal developer documentation. The Checkout-Ruby-SDK uses v2 of the API instead of the deprecated v1.
 
 We will make this tutorial as simple as possible, we will hard code everything from products to orders. It is up to you on how will you optimize and implement a better UI for this.
 
 ## Step 1: Initialize a Rails application
-You can initalize a Rails application by running the following commands in the terminal.
+You can initialize a Rails application by running the following commands in the terminal.
 
-```sh
-rails new paypal-checkout
-cd paypal-checkout
+```console
+$ rails new paypal-checkout
+$ cd paypal-checkout
 ```
 
 ## Step 2: Install the gem
@@ -23,18 +23,19 @@ In your `Gemfile` add the following:
 ```ruby
 gem 'paypal-checkout-sdk'
 ```
+{: file='Gemfile' }
 
 And then run the following in the terminal.
 
-```sh
-bundle install
+```console
+$ bundle install
 ```
 
 ## Step 3: Create an Order model
 This will be the model where we’ll store the transactions.
 
-```sh
-rails g model Order
+```console
+$ rails g model Order
 ```
 
 This will create a model file and a migration. In the migration add the following:
@@ -52,8 +53,8 @@ end
 
 The `paid` will determine if the order is paid or not. The `token` will be your PayPal reference. The `price` will the total amount of the transaction (sum of prices of all products), we will just hard code it for simplicity and also used `integer` to make it simple. Please use appropriate data type on your project.
 
-```sh
-rails db:migrate
+```console
+$ rails db:migrate
 ```
 
 This will migrate our migration and create table in the database for our records.
@@ -68,12 +69,13 @@ Rails.application.routes.draw do
   post :capture_order, :to => 'orders#capture_order'
 end
 ```
+{: file='config/routes.rb' }
 
 ## Step 5: Create the controller
 This will be the controller for the routes that we created in the previous step.
 
-```sh
-rails g controller Orders
+```console
+$ rails g controller Orders
 ```
 
 In `app/controllers/orders_controller.rb`, add the following methods:
@@ -90,9 +92,10 @@ class OrdersController < ApplicationController
   end
 end
 ```
+{: file='app/controllers/orders_controller.rb' }
 
-## Step 6: Add the Paypal smart payment button
-You can see the Paypal smart button interactive demo to customize your button.
+## Step 6: Add the PayPal smart payment button
+You can see the PayPal smart button interactive demo to customize your button.
 
 In `app/views/orders/index.html.erb`, add the following: (create the file if it not exists)
 
@@ -107,6 +110,7 @@ In `app/views/orders/index.html.erb`, add the following: (create the file if it 
   }).render('#paypal-button-container');
 </script>
 ```
+{: file='app/views/orders/index.html.erb' }
 
 Replace `YOUR-PAYPAL-CLIENT-ID` with your client id. If you don’t have one, you can create by clicking [this link](https://developer.paypal.com/developer/applications). You can also create sandbox accounts using [this link](https://developer.paypal.com/developer/accounts).
 
@@ -135,6 +139,7 @@ class OrdersController < ApplicationController
   end
 end
 ```
+{: file='app/controllers/orders_controller.rb' }
 
 This will make `@client` available in our `create_order` and `capture_order` methods.
 
@@ -169,8 +174,9 @@ def create_order
   end
 end
 ```
+{: file='app/controllers/orders_controller.rb' }
 
-This will create an order and returns us a token from Paypal, while doing that we are also creating a record in our database using the `Order` model. [Click this for more info](https://github.com/paypal/Checkout-Ruby-SDK#creating-an-order).
+This will create an order and returns us a token from PayPal, while doing that we are also creating a record in our database using the `Order` model. [Click this for more info](https://github.com/paypal/Checkout-Ruby-SDK#creating-an-order).
 
 Now in the frontend, we can now use this token. In the `paypal.Buttons`, inside `createOrder` function, we must return this token for our button to process.
 
@@ -182,6 +188,7 @@ createOrder: async () => {
   return responseData.token;
 }
 ```
+{: file='app/views/orders/index.html.erb' }
 
 The next would be the `onApprove` function where the data will be passed after the payment has been approved.
 
@@ -203,6 +210,7 @@ onApprove: async (data) => {
   }
 }
 ```
+{: file='app/views/orders/index.html.erb' }
 
 If the backend gives a `COMPLETED` response, we can now redirect the user to the success page.
 
@@ -225,6 +233,8 @@ def capture_order
   end
 end
 ```
+{: file='app/controllers/orders_controller.rb' }
+
 This will capture the order and give a status if the order has been completed. [Click this for more info](https://github.com/paypal/Checkout-Ruby-SDK#capturing-an-order).
 
 If the status is now completed then we can set the order as **paid**, and return a **COMPLETED** in the frontend to know if the process is success.
@@ -232,14 +242,14 @@ If the status is now completed then we can set the order as **paid**, and return
 ## Step 8: Test the app
 In your terminal.
 
-```sh
-rails s
+```console
+$ rails s
 ```
 
 In your browser go to [http://localhost:3000/](http://localhost:3000/) and you should see a Paypal button if everything is successful.
 
-If you clicked the Paypal button, a new tab should appear and an `Order` must be created in your database that has `token`, `price`, and `paid` set as `false`.
+If you clicked the PayPal button, a new tab should appear and an `Order` must be created in your database that has `token`, `price`, and `paid` set as `false`.
 
 Once you complete the payment, the tab should close and the order record paid column now must be set to `true`, and an alert the says `COMPLETED` should appear.
 
-That’s it. We have now created a simple Paypal checkout in Ruby on Rails.
+That’s it. We have now created a simple PayPal checkout in Ruby on Rails.

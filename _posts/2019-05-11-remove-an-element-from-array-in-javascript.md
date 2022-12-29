@@ -3,7 +3,7 @@ categories: ['General Programming']
 tags: ['JavaScript']
 title: 'Remove an element from array in JavaScript'
 ---
-The following snippets allows you to remove an element from array in JavaScript.
+The following snippets allow you to remove an element from array in JavaScript.
 
 ## Mutating
 

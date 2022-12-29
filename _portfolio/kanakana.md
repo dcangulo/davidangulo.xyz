@@ -22,33 +22,25 @@ order: 7
 
 ## Screenshots
 ![hiragana-monographs](/assets/images/portfolio/kanakana/hiragana-monographs.png)
-
-*Picture 1: Hiragana Monographs (light mode)*
+_Picture 1: Hiragana Monographs (light mode)_
 
 ![hiragana-digraphs](/assets/images/portfolio/kanakana/hiragana-digraphs.png)
-
-*Picture 2: Hiragana Digraphs (dark mode)*
+_Picture 2: Hiragana Digraphs (dark mode)_
 
 ![settings](/assets/images/portfolio/kanakana/settings.png)
-
-*Picture 3: Settings (light mode)*
+_Picture 3: Settings (light mode)_
 
 ![settings-dark](/assets/images/portfolio/kanakana/settings-dark.png)
-
-*Picture 4: Settings (dark mode)*
+_Picture 4: Settings (dark mode)_
 
 ![quiz](/assets/images/portfolio/kanakana/quiz.png)
-
-*Picture 5: Quiz - Fill in the blanks (ligth mode)*
+_Picture 5: Quiz - Fill in the blanks (light mode)_
 
 ![quiz-dark](/assets/images/portfolio/kanakana/quiz-dark.png)
-
-*Picture 6: Quiz - Multiple choice (dark mode)*
+_Picture 6: Quiz - Multiple choice (dark mode)_
 
 ![quiz-perfect](/assets/images/portfolio/kanakana/quiz-perfect.png)
-
-*Picture 7: Quiz - Perfect (light mode)*
+_Picture 7: Quiz - Perfect (light mode)_
 
 ![quiz-mistakes](/assets/images/portfolio/kanakana/quiz-mistakes.png)
-
-*Picture 8: Quiz - With mistakes (dark mode)*
+_Picture 8: Quiz - With mistakes (dark mode)_

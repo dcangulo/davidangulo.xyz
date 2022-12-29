@@ -41,7 +41,7 @@ A simple benchmark was created on a Ruby on Rails app using a `User` model with 
 
 The record count of the model is thirteen (13) and shows the following result using the code `Benchmark.ms { User.all }`:
 
-```txt
+```text
 80.17600001767278ms (with UUID)
 58.52800002321601ms (no UUID)
 ```
@@ -50,7 +50,7 @@ The record count of the model is thirteen (13) and shows the following result us
 * When you don’t want the IDs to be predictable by the user. Eg. If there is `/user/100` there must be `user/99`, and so on.
 * When you need to secure the record count of your database. Eg. A user registered on your site and its profile link is `/user/100` he can, therefore, think that he is the **100th user** to register on the site.
 * When you don’t want to have collision on multiple instances of databases.
-* When you need to use some of the advantages stated above.
+* When you need to use some advantages stated above.
 
 ## Conclusion
 It is never necessary to use UUID. UUID’s ought to be used as a final resort once you have tried all alternative means of determining uniqueness on your architecture. It is recommended to avoid because of the performance limitations in indexing their values. UUID’s are also not particularly friendly to users.

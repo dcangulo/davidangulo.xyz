@@ -13,9 +13,9 @@ If you are already on an existing project and has a model that already has a CRU
 
 In your terminal run the following commands.
 
-```sh
-rails new file-upload
-cd file-upload
+```console
+$ rails new file-upload
+$ cd file-upload
 ```
 
 This will simply create a new Rails project and change our current directory in the newly created project.
@@ -25,8 +25,8 @@ Since our focus is on file upload, we would be using scaffold to create our CRUD
 
 Scaffolding requires the following command in the terminal.
 
-```sh
-rails g scaffold post title:string content:text
+```console
+$ rails g scaffold post title:string content:text
 ```
 
 This will create a `Post` model with a `title` and `content` columns, a database migration, and all views.
@@ -34,9 +34,9 @@ This will create a `Post` model with a `title` and `content` columns, a database
 ## Step 3: Install Active Storage.
 You need to run the following command in the terminal.
 
-```sh
-rails active_storage:install
-rake db:migrate
+```console
+$ rails active_storage:install
+$ rake db:migrate
 ```
 
 The command creates a database migration that hold the necessary data and makes file uploading possible. Since we have a new database migration, we would need to migrate it.
@@ -49,6 +49,7 @@ class Post < ApplicationRecord
   has_one_attached :image
 end
 ```
+{: file='app/models/post.rb' }
 
 This will tell that our model allows an attachment `image`. The word `image` is user-defined and can be changed to anything you want.
 
@@ -65,6 +66,7 @@ In the file `app/views/posts/_form.html.erb`, inside the form_with, add the foll
   <%= form.file_field :image %>
 </div>
 ```
+{: file='app/views/posts/_form.html.erb' }
 
 This will add a file upload field in the form.
 
@@ -78,6 +80,7 @@ def post_params
   params.require(:post).permit(:title, :content, :image)
 end
 ```
+{: file='app/controllers/posts_controller.rb' }
 
 Second, we would need to attach our image in the controller’s create method.
 
@@ -98,6 +101,7 @@ def create
   end
 end
 ```
+{: file='app/controllers/posts_controller.rb' }
 
 Notice that we just added `@post.image.attach(post_params[:image])` in the create method.
 
@@ -120,6 +124,7 @@ def update
   end
 end
 ```
+{: file='app/controllers/posts_controller.rb' }
 
 In the update method we added `@post.image.purge` to ensure that the old attachments are deleted before we attach the new file. The next line after purge is the same as what we did in create method.
 
@@ -139,8 +144,9 @@ In your file `app/views/posts/show.html.erb`, add the following.
   <% end %>
 </p>
 ```
+{: file='app/views/posts/show.html.erb' }
 
-It will check if there is a file attached and if it does it will show the file.
+It will check if there is a file attached and if it does, it will show the file.
 
 You may want to run your app using `rails s` and navigate to [http://localhost:3000/posts](http://localhost:3000/posts) to confirm that everything works.
 

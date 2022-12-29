@@ -45,8 +45,7 @@ The PHP function accepts three (3) parameters. The first parameter is a string w
 ## Step 2: Use the PHP function.
 
 ![initial](/assets/images/posts/how-to-resize-an-image-in-php/initial.jpg)
-
-*Picture 2.1. Our sample image laptop.jpg having a dimension of 1920×1280.*
+_Picture 2.1. Our sample image laptop.jpg having a dimension of 1920×1280._
 
 In this example, we are going to have an image laptop.jpg which has a dimension of **1920×1280** and we will want to downscale this image to the quarter of its original size (**480×320**).
 
@@ -61,8 +60,7 @@ resize_image('laptop.jpg', 480, 320);
 After executing the file `resize.php` we can see now that our image has lesser file size and has a lower dimension.
 
 ![result](/assets/images/posts/how-to-resize-an-image-in-php/result.jpg)
-
-*Picture 2.2. Our sample image laptop.jpg having a new dimension of 480×320.*
+_Picture 2.2. Our sample image laptop.jpg having a new dimension of 480×320._
 
 
 That’s it, we have now successfully resized an image in PHP.

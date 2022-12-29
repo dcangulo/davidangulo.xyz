@@ -3,14 +3,14 @@ categories: ['Website Development']
 tags: ['Cron', 'PHP', 'WordPress', 'WordPress Plugin']
 title: 'How to create a cron job in WordPress'
 ---
-In this tutorial, we would be learning how to create cron job in WordPress.
+In this tutorial, we would be learning how to create cron job on WordPress.
 
 Sometimes you just need some automated functions in your WordPress plugins. Maybe you need to generate a report every 12 hours and you need to do this automatically, this is the function that you need to make this possible.
 
 Did you know that wp-cron is different from the cron jobs offered by your hosting provider? Cron jobs in your hosting provider are more reliable than using wp-cron. Cron jobs execute exactly with the time you have set while in wp-cron you need someone to view your site for it to activate. But if you are at least having one (1) visit in your WordPress website then wp-cron should work.
 
-## Step 1: Setup the hook name for the action.
-The hook name will be the name for your wp-cron. I’ll give you some example hook name just in case you don’t have any idea. If you are generating reports then you can name your hook name as `generate_reports`.
+## Step 1: Set up the hook name for the action.
+The hook name will be the name for your wp-cron. I’ll give you an example hook name just in case you don’t have any idea. If you are generating reports then you can name your hook name as `generate_reports`.
 
 In this example we would just be using some generic hook name such as `my_daily_event`.
 
@@ -61,7 +61,7 @@ register_deactivation_hook(__FILE__, 'remove_schedule');
 ```
 
 ## Step 4: Add a custom cron schedule.
-Just incase you want to have a wp-cron that runs on a specific interval that is not available in the default options.
+Just in case you want to have a wp-cron that runs on a specific interval that is not available in the default options.
 
 ```php
 function custom_cron_schedules($schedules) {

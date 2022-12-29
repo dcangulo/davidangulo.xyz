@@ -14,17 +14,16 @@ You might want to follow this tutorial if you’re curious enough about what PHP
 
 Also, you might also consider updating to PHP 7 or if your web hosting still does not support it, you may consider moving to another web hosting as PHP 5 support will officially end on 31st of December 2018 according to [php.net](https://php.net/supported-versions.php).
 
-## Step 1: Install the Display PHP  Version plugin.
+## Step 1: Install the Display PHP Version plugin.
 Hover to **Plugins** in your sidebar menu, then click **Add New**.
 
 On the keyword textbox, type **Display PHP Version**. Find the plugin authored by **David Gwyer**.
 
 ![install-plugin](/assets/images/posts/how-to-find-out-your-php-version-in-wordpress/install-plugin.jpg)
-
-*Picture 1.1. Finding and installing Display PHP Version plugin.*
+_Picture 1.1. Finding and installing Display PHP Version plugin._
 
 ## Step 2: Activate the plugin.
-After the install process is complete, the **Install Now** button will change into **Activate** button. Click the **Activate** button.
+After the installation process is complete, the **Install Now** button will change into **Activate** button. Click the **Activate** button.
 
 Another option is to click **Plugins** in the sidebar menu and on the plugins list find **Display PHP Version** and click **Activate**.
 
@@ -34,7 +33,6 @@ On the sidebar menu, click on **Dashboard**.
 Find the **At a Glance**, where it will now show your number of posts, pages, and comments. This will now include the current version of WordPress and theme, also the current PHP version displayed in green font color.
 
 ![view-php-version](/assets/images/posts/how-to-find-out-your-php-version-in-wordpress/view-php-version.jpg)
-
-*Picture 3.1. Knowing your PHP version.*
+_Picture 3.1. Knowing your PHP version._
 
 Does your web host still use PHP 5? You might want to consider updating.

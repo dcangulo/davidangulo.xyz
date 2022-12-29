@@ -15,12 +15,12 @@ Let's initialize a blank Rails app with a model that has an image attachment.
 
 You may skip this step if you already have a Rails app running.
 
-```sh
-rails new test-app
-cd test-app
-bundle exec rails g scaffold post
-bundle exec rails active_storage:install
-bundle exec rails db:migrate
+```console
+$ rails new test-app
+$ cd test-app
+$ bundle exec rails g scaffold post
+$ bundle exec rails active_storage:install
+$ bundle exec rails db:migrate
 ```
 
 ### What those commands above do?
@@ -38,14 +38,15 @@ class Post < ApplicationRecord
   has_one_attached :image
 end
 ```
+{: file='app/models/post.rb' }
 
 This creates an association between our `Post` model and `ActiveStorage`.
 
 ## Step 3: Create a sample Post record
 
 Open our Rails console.
-```sh
-bundle exec rails c
+```console
+$ bundle exec rails c
 ```
 
 Create a sample `Post` record.
@@ -57,15 +58,15 @@ Post.create
 
 What we will attach to our record created in the previous step is a **1 black pixel image**.
 
-```txt
+```text
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjYGBg+A8AAQQBAHAgZQsAAAAASUVORK5CYII=
 ```
 
 Any file should work but we only chose that for demonstration purposes and also to keep our base64 string short.
 
 Open our Rails console again.
-```sh
-bundle exec rails c
+```console
+$ bundle exec rails c
 ```
 
 We'll assign our sample image to a variable.
@@ -110,9 +111,9 @@ Post.last.image.attach(
 
 ## Step 5: DRY code.
 
-Instead of copy-pasting the codes above everytime, we can DRY our code a bit.
+Instead of copy-pasting the codes above every time, we can DRY our code a bit.
 
-In your `app/models/concerns/attachable.rb`, paste the following. (create if does not exists)
+In your `app/models/concerns/attachable.rb`, paste the following. (create if it does not exist)
 
 ```ruby
 module Attachable
@@ -131,6 +132,7 @@ module Attachable
   end
 end
 ```
+{: file='app/models/concerns/attachable.rb' }
 
 We just created an `Attachable` module that we can include in our models.
 
@@ -143,6 +145,7 @@ class Post < ApplicationRecord
   has_one_attached :image
 end
 ```
+{: file='app/models/post.rb' }
 
 Then we can attach file to our `Post` record like the following code:
 
