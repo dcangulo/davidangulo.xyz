@@ -33,6 +33,14 @@ layout: compress
     }
   </script>
 
+  <script type="text/javascript">
+    const allowedHosts = ['www.davidangulo.xyz', 'localhost'];
+
+    if (!allowedHosts.includes(window.location.hostname)) {
+      window.location.href = window.location.href.replaceAll(window.location.host, 'www.davidangulo.xyz');
+    }
+  </script>
+
   {% include head.html %}
 
   <body data-spy="scroll" data-target="#toc" data-topbar-visible="true">
