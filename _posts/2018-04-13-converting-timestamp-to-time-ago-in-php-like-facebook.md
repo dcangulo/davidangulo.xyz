@@ -64,6 +64,6 @@ echo timeago("2018-02-12 02:07:42"); // 2 mons
 echo timeago("2018-03-12 02:07:42", true); // 2 mons, 1 day, 17 hrs, 39 mins, 16 secs
 ```
 
-That’s it if you want to change the suffixes of the numbers you can do so by editing them in the $string variable in the function above.
+That’s it if you want to change the suffixes of the numbers you can do so by editing them in the `$string` variable in the function above.
 
 Don’t forget to add the word ago if you really need it.

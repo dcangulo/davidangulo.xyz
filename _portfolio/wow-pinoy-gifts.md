@@ -11,17 +11,13 @@ order: 1
 
 ## Screenshots
 ![home](/assets/images/portfolio/wow-pinoy-gifts/home.jpg)
-
-*Picture 1: Homepage*
+_Picture 1: Homepage_
 
 ![about](/assets/images/portfolio/wow-pinoy-gifts/about.jpg)
-
-*Picture 2: About*
+_Picture 2: About_
 
 ![shop](/assets/images/portfolio/wow-pinoy-gifts/shop.jpg)
-
-*Picture 3: Shop*
+_Picture 3: Shop_
 
 ![contact](/assets/images/portfolio/wow-pinoy-gifts/contact.jpg)
-
-*Picture 4: Contact*
+_Picture 4: Contact_

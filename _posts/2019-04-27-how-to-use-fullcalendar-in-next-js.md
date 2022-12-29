@@ -16,10 +16,10 @@ Now that we understand the problem, let’s proceed with the solution.
 ## Step 1: Initialize a Next.js project
 Let’s start with initializing our Next.js project by running the following commands in the terminal.
 
-```sh
-mkdir nextjs-fullcalendar
-cd nextjs-fullcalendar
-touch package.json
+```console
+$ mkdir nextjs-fullcalendar
+$ cd nextjs-fullcalendar
+$ touch package.json
 ```
 
 In the `package.json` that we have created, paste the following.
@@ -36,15 +36,15 @@ In the `package.json` that we have created, paste the following.
 
 In the terminal, install Next.js by running the following command.
 
-```sh
-yarn add next react react-dom
+```console
+$ yarn add next react react-dom
 ```
 
 Now, let’s create our landing page. Run the following commands in the terminal.
 
-```sh
-mkdir pages
-touch pages/index.js
+```console
+$ mkdir pages
+$ touch pages/index.js
 ```
 
 In the file `pages/index.js`, paste the following.
@@ -58,13 +58,13 @@ export default function Home() {
 We just created a `Home` component that simply shows a short message on our landing page.
 
 ## Step 2: Setup Next.js CSS support
-Since FullCalendar has custom CSS, we must setup our Next.js project to support CSS.
+Since FullCalendar has custom CSS, we must set up our Next.js project to support CSS.
 
 In the terminal run the following.
 
-```sh
-yarn add node-sass @zeit/next-sass @zeit/next-css
-touch next.config.js
+```console
+$ yarn add node-sass @zeit/next-sass @zeit/next-css
+$ touch next.config.js
 ```
 
 In the file `next.config.js`, paste the following.
@@ -77,15 +77,15 @@ module.exports = withSass()
 ## Step 3: Install FullCalendar
 Now, let’s install FullCalendar to our project. Run the following command in the terminal.
 
-```sh
-yarn add @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid
+```console
+$ yarn add @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid
 ```
 
 Let’s create an SCSS file for the FullCalendar CSS by running the following commands in the terminal.
 
-```sh
-mkdir styles
-touch styles/calendar.scss
+```console
+$ mkdir styles
+$ touch styles/calendar.scss
 ```
 
 In the file `styles/calendar.scss`, paste the following.
@@ -99,9 +99,9 @@ In the file `styles/calendar.scss`, paste the following.
 ## Step 4: Create your own no SSR FullCalendar component
 Let’s start by creating a directory for our components. Run the following commands in the terminal.
 
-```sh
-mkdir components
-touch components/fullcalendar.js
+```console
+$ mkdir components
+$ touch components/fullcalendar.js
 ```
 
 In the file `components/fullcalendar.js`, paste the following.
@@ -173,8 +173,8 @@ Now if you run `yarn dev` in the terminal and navigate to [http://localhost:3000
 ## tl;dr
 Install FullCalendar using the following command.
 
-```sh
-yarn add @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid
+```console
+$ yarn add @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid
 ```
 
 Import the CSS in your styles.

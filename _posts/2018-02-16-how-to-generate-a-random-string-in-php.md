@@ -45,7 +45,7 @@ function randomString() {
 
 The purpose of using `str_repeat` is to add repetitions among the characters. `str_repeat` together with `str_shuffle` to have 2 or more of the same characters in a string.
 
-An example is having "aaa" or "abcddd". If I didn't use the str_repeat we can only generate a unique set of characters such as "jkl" but never "jjl".
+An example is having "aaa" or "abcddd". If I didn't use the `str_repeat` we can only generate a unique set of characters such as "jkl" but never "jjl".
 
 This function will return a shuffled version of the output in Step 2 and still composed of 730 characters.
 
@@ -86,7 +86,7 @@ function randomString($n = 10) {
 } 
 ```
 
-This function will have the same output as we have in Step 4 but the upside of this function is that it will not return a duplicated string. Instead, the output will only be generated once and never again but you need the right condition for it to work.
+This function will have the same output as we have in Step 4, but the upside of this function is that it will not return a duplicated string. Instead, the output will only be generated once and never again, but you need the right condition for it to work.
 
 ## Basic Usage:
 ```php

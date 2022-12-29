@@ -3,7 +3,7 @@ categories: ['Website Development']
 tags: ['MySQL', 'PHP', 'WordPress', 'WordPress Plugin']
 title: 'How to create a CRUD operations plugin in WordPress'
 ---
-In this tutorial, we would learn how to create crud operations plugin in WordPress.
+In this tutorial, we would learn how to create crud operations plugin on WordPress.
 
 This tutorial will demonstrate a WordPress plugin that can do CRUD (Create/Insert, Read/Select, Update, Delete) operations.
 
@@ -121,7 +121,7 @@ To insert the data, we will just use the [`INSERT INTO`](https://www.w3schools.c
 The last line of code will just make sure that it automatically reloads the page so we can see the newly added record on our table.
 
 ## Step 5: Populate the HTML table.
-Now that we have created an insert function, we can now populate the database with records. Before you proceed make sure that you have atleast one (1) record to see the result of this step.
+Now that we have created an insert function, we can now populate the database with records. Before you proceed make sure that you have at least one (1) record to see the result of this step.
 
 ```php
 <?php
@@ -359,4 +359,4 @@ function crudAdminPage() {
 }
 ```
 
-That’s pretty much it. I hope you understand some basic database operations in WordPress.
+That’s pretty much it. I hope you understand some basic database operations on WordPress.

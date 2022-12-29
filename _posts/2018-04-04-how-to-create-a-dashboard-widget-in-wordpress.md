@@ -3,7 +3,7 @@ categories: ['Website Development']
 tags: ['PHP', 'WordPress', 'WordPress Plugin']
 title: 'How to create a dashboard widget in WordPress'
 ---
-In this tutorial, we would be learning on how to create a dashboard widget in WordPress.
+In this tutorial, we would be learning on how to create a dashboard widget on WordPress.
 
 If ever that you are developing a plugin that needs a report generation then this one is the perfect tutorial for you. This tutorial will make your plugin able to show a widget in your administrator dashboard.
 

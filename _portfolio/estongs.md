@@ -11,29 +11,22 @@ order: 9
 
 ## Screenshots
 ![home](/assets/images/portfolio/estongs/home.png)
-
-*Picture 1: Homepage*
+_Picture 1: Homepage_
 
 ![our-story](/assets/images/portfolio/estongs/our-story.png)
-
-*Picture 2: Our Story*
+_Picture 2: Our Story_
 
 ![price-list](/assets/images/portfolio/estongs/price-list.png)
-
-*Picture 3: Price List*
+_Picture 3: Price List_
 
 ![how-to-order](/assets/images/portfolio/estongs/how-to-order.png)
-
-*Picture 4: How to Order*
+_Picture 4: How to Order_
 
 ![gallery](/assets/images/portfolio/estongs/gallery.png)
-
-*Picture 5: Gallery*
+_Picture 5: Gallery_
 
 ![blog](/assets/images/portfolio/estongs/blog.png)
-
-*Picture 6: Blog*
+_Picture 6: Blog_
 
 ![contact](/assets/images/portfolio/estongs/contact.png)
-
-*Picture 7: Contact*
+_Picture 7: Contact_

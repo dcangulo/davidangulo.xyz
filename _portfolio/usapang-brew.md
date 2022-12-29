@@ -11,21 +11,16 @@ order: 5
 
 ## Screenshots
 ![home](/assets/images/portfolio/usapang-brew/home.jpg)
-
-*Picture 1: Homepage*
+_Picture 1: Homepage_
 
 ![breweries](/assets/images/portfolio/usapang-brew/breweries.jpg)
-
-*Picture 2: Breweries*
+_Picture 2: Breweries_
 
 ![brewery-profile](/assets/images/portfolio/usapang-brew/brewery-profile.jpg)
-
-*Picture 3: Brewery Profile*
+_Picture 3: Brewery Profile_
 
 ![beers](/assets/images/portfolio/usapang-brew/beers.jpg)
-
-*Picture 4: Beers*
+_Picture 4: Beers_
 
 ![contact](/assets/images/portfolio/usapang-brew/contact.jpg)
-
-*Picture 5: Contact*
+_Picture 5: Contact_

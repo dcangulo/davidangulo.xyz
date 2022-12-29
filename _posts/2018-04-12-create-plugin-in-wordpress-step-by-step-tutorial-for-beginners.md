@@ -3,9 +3,9 @@ categories: ['Website Development']
 tags: ['MySQL', 'PHP', 'SVN', 'WordPress', 'WordPress Plugin']
 title: 'Create plugin in WordPress step by step tutorial for beginners'
 ---
-This tutorial will guide you on how to create plugin in WordPress.
+This tutorial will guide you on how to create plugin on WordPress.
 
-WordPress plugins are simply PHP scripts that extend the functionality of your WordPress website. If you have a running WordPress website and you need to add some functionality you can always rely on the wordpress plugin directory, this enables you to add functionality to your website without the need to learn on how to code.
+WordPress plugins are simply PHP scripts that extend the functionality of your WordPress website. If you have a running WordPress website and you need to add some functionality you can always rely on the WordPress plugin directory, this enables you to add functionality to your website without the need to learn on how to code.
 
 But, what if the functionality that you are looking for is not available? If you are a developer, then you need to write the code yourself and if you are generous enough you will make the plugin flexible, meaning it can be installed and it is compatible with all WordPress websites. If you are non-developer then you might need to hire a developer to do it for you or instead search for an alternative plugin that suits your needs.
 
@@ -37,17 +37,16 @@ The content above will be the description of your plugin. This is a standard for
 If you navigate to your plugins, you should see **My Superb Plugin** in the list. You might want to activate your plugin now even though it does not have any function just yet.
 
 ## Step 3: Plan your plugin functionality.
-Ask yourself, what should your plugin do? There are tons of plugins in the WordPress directory and if you are planning to include yours in that list you must create something unique.
+Ask yourself what should your plugin do? There are tons of plugins in the WordPress directory and if you are planning to include yours in that list you must create something unique.
 
 Plugins can be a simple such as printing a text to complex such as having an e-commerce plugin or reservation plugin. Each plugin has their own functionalities.
 
-I will just list some functionalities and example plugins that can guide you on how to create plugin in WordPress.
+I will just list some functionalities and example plugins that can guide you on how to create plugin on WordPress.
 
 ### a. Admin Page
 
 ![admin](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/admin.jpg)
-
-*a. An admin page.*
+_a. An admin page._
 
 Most of the big plugins use this functionality. Since their plugins offer a wide range of options and configurations they will need to create a user interface for users to easily use their plugin.
 
@@ -58,8 +57,7 @@ Read: [How to create an admin page for your WordPress plugin](/posts/how-to-crea
 ### b. Sub-menu Page
 
 ![submenu](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/submenu.jpg)
-
-*b. A sub-menu page..*
+_b. A sub-menu page._
 
 If one page is not enough then you need to add more pages for your plugin. This will add a child menu on the Admin page.
 
@@ -70,8 +68,7 @@ Read: [How to add submenu in WordPress custom plugin](/posts/how-to-add-submenu-
 ### c. Settings Page
 
 ![settings](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/settings.jpg)
-
-*c. A settings page.*
+_c. A settings page._
 
 Some plugin needs to be configured to the settings to let the users pick the functions that they want to enable and disable. The settings page allows your plugin to save settings in the WordPress that you can use.
 
@@ -82,8 +79,7 @@ Read: [How to create a settings page for your WordPress plugin](/posts/how-to-cr
 ### d. Dashboard Widget
 
 ![dashboard-widget](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/dashboard-widget.jpg)
-
-*d. A dashboard widget.*
+_d. A dashboard widget._
 
 Dashboard widgets are the content that you see in WordPress admin dashboard. This is the first page that an admin will see whenever he login. This is a good functionality used for a summary of reports.
 
@@ -94,8 +90,7 @@ Read: [How to create a dashboard widget in WordPress](/posts/how-to-create-a-das
 ### e. Shortcode
 
 ![shortcode](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/shortcode.jpg)
-
-*e. A login form shortcode.*
+_e. A login form shortcode._
 
 A shortcode is a text that you can use in WordPress WYSIWYG editor to show some functionality. An example is when you have created a form using HTML, you can register it using the shortcode and this shortcode will be used in the editor for the form that you have created to appear.
 
@@ -106,8 +101,7 @@ Read: [How to create custom WordPress shortcode plugin from scratch](/posts/how-
 ### f. Upload Files
 
 ![upload](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/upload.jpg)
-
-*f. A file uploader plugin.*
+_f. A file uploader plugin._
 
 If you are developing a plugin that needs to upload files then you can use this functionality. All files uploaded using this uploader will be uploaded to `wp-content/uploads` directory.
 
@@ -116,8 +110,7 @@ Read: [How to upload files in WordPress programmatically](/posts/how-to-upload-f
 ### g. Posts Custom Column
 
 ![custom-column](/assets/images/posts/create-plugin-in-wordpress-step-by-step-tutorial-for-beginners/custom-column.jpg)
-
-*g. A custom last modified date column.*
+_g. A custom last modified date column._
 
 Whenever you navigate to *All Posts*, you can see the list in a table. If you are developing a plugin that is specific for posts, then you can add a custom column generated by your plugin. Maybe you want to create a plugin that allows users to rate each post and the summary will be listed in the custom column.
 
@@ -139,20 +132,20 @@ The WordPress itself uses cron jobs.
 
 A plugin that uses **Cron Jobs** is [**WP Crontrol**](https://wordpress.org/plugins/wp-crontrol/).
 
-Read: [How to create  cron job in WordPress](/posts/how-to-create-cron-job-in-wordpress/)
+Read: [How to create cron job in WordPress](/posts/how-to-create-cron-job-in-wordpress/)
 
 ---
 
-So have you got any idea of what your plugin needs to do? You can always refer to look for a non-existent plugin and create them or innovate some plugins that need have additional functionalities.
+So have you got any idea of what your plugin needs to do? You can always refer to look for a non-existent plugin and create them or innovate some plugins that need to have additional functionalities.
 
 Here are some plugins that have a step by step tutorial for beginners.
 
-### a. CRUD Operations Plugin (Step by Step tutorial)
+### a. CRUD Operations Plugin (Step-by-Step tutorial)
 This is a simple plugin that can do crud(create/read/update/delete) operations. You can refer to this tutorial to have a better understanding of WordPress database operations.
 
 Read: [How to create CRUD operations plugin in WordPress](/posts/how-to-create-crud-operations-plugin-in-wordpress/)
 
-### b. Contact Form Plugin (Step by Step tutorial)
+### b. Contact Form Plugin (Step-by-Step tutorial)
 This is a simple plugin that allows you to put a contact form on any page/post that you want and this tutorial will guide you on how to create it.
 
 Read: [How to create a contact form plugin in WordPress](/posts/how-to-create-a-contact-form-plugin-in-wordpress/)
@@ -162,4 +155,4 @@ If you have successfully created your own plugin, then it is time to upload it t
 
 Read: [How to upload your plugin to WordPress plugin directory](/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/)
 
-That’s it, I hope you are able to create plugin in WordPress.
+That’s it, I hope you are able to create plugin on WordPress.

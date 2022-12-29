@@ -12,10 +12,10 @@ This guide will show you how. I will use FullCalendar plugin called [FullCalenda
 ## Step 1: Initialize a Next.js project
 Initialize a Next.js project by running the following commands in the terminal.
 
-```sh
-mkdir import-class-nextjs
-cd import-class-nextjs
-touch package.json
+```console
+$ mkdir import-class-nextjs
+$ cd import-class-nextjs
+$ touch package.json
 ```
 
 Paste the following inside `package.json` that we have created.
@@ -32,15 +32,15 @@ Paste the following inside `package.json` that we have created.
 
 Install the necessary Next.js packages by running the following command in the terminal.
 
-```sh
-yarn add  next react react-dom
+```console
+$ yarn add  next react react-dom
 ```
 
 Let’s create an index or landing page for our project using the following commands.
 
-```sh
-mkdir pages
-touch pages/index.js
+```console
+$ mkdir pages
+$ touch pages/index.js
 ```
 
 Page the following inside `pages/index.js` that we have created.
@@ -56,8 +56,8 @@ This is just a simple component for our landing page which just returns a single
 ## Step 2: Dynamically import class with no SSR
 Install the package that you need. In this example, we are going to use FullCalendar interaction plugin.
 
-```sh
-yarn add @fullcalendar/core @fullcalendar/interaction
+```console
+$ yarn add @fullcalendar/core @fullcalendar/interaction
 ```
 
 If you tried to import this the usual way `import interactionPlugin from '@fullcalendar/interaction'` you will get an error `Element is not defined` as `Element` is non-existent on the server side rendering.

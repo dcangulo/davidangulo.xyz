@@ -90,8 +90,7 @@ In this example, I will just create a simple invoice document. We will name the 
 This will be the output of `file.html` when it is opened in a browser.
 
 ![html-output](/assets/images/posts/how-to-convert-html-to-pdf-in-php/html-output.jpg)
-
-*Picture 1.1. The output of file.html in the browser.*
+_Picture 1.1. The output of file.html in the browser._
 
 ## Step 2: Download the TCPDF library.
 You may download the TCPDF library on the following links:
@@ -145,13 +144,11 @@ In this example, we will choose to download the pdf file that we are going to cr
 The directory will have 1 folder and 2 files.
 
 ![directory](/assets/images/posts/how-to-convert-html-to-pdf-in-php/directory.jpg)
-
-*Picture 3.1. This is how the directory must look like.*
+_Picture 3.1. This is how the directory must look like._
 
 If you don’t have encountered an error when executing `index.php` then you must have the output as follows.
 
 ![pdf-output](/assets/images/posts/how-to-convert-html-to-pdf-in-php/pdf-output.jpg)
-
-*Picture 3.2. The output of file.pdf opened in Google Chrome browser.*
+_Picture 3.2. The output of file.pdf opened in Google Chrome browser._
 
 That’s it, we have now converted an HTML file into a PDF file format document in PHP.

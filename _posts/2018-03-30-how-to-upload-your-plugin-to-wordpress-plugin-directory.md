@@ -26,7 +26,7 @@ This file makes it easier for users to identify what does your plugin do and dec
 
 In short, this is where you market your plugin to the users.
 
-```txt
+```text
 === Posts Unique View Counter ===
 Contributors: dcangulo
 Donate link: https://www.paypal.me/dcangulo
@@ -102,7 +102,7 @@ The `readme.txt` above is what I use in my plugin [Posts Unique View Counter](ht
 2. **Contributors** are the username of the contributors for the development of this plugin. If you have more than one, you can separate it with commas.
 3. The **donate link** is the link where can you receive donations.
 4. The **plugin name** should be the same as number one (1).
-5. The **plugin uri** is a valid url where they can see a detailed information about your plugin.
+5. The **plugin uri** is a valid url where they can see detailed information about your plugin.
 6. **Tags** are simply tags. Put the words you think that is related to your plugin.
 7. The **author uri** is a valid link to the author page, you can put your own website or maybe your wordpress.org profile.
 8. **Author name** is simply the name of the author.
@@ -124,20 +124,16 @@ The next is simply a short description of your plugin.
 19. **Banner**.
 
 ![plugin-page-1](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/plugin-page-1.jpg)
-
-*Picture 1.1. Screenshot 1.*
+_Picture 1.1. Screenshot 1._
 
 ![plugin-page-2](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/plugin-page-2.jpg)
-
-*Picture 1.2. Screenshot 2.*
+_Picture 1.2. Screenshot 2._
 
 ![plugin-page-3](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/plugin-page-3.jpg)
-
-*Picture 1.3. Screenshot 3.*
+_Picture 1.3. Screenshot 3._
 
 ![plugin-page-4](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/plugin-page-4.jpg)
-
-*Picture 1.4. Screenshot 4.*
+_Picture 1.4. Screenshot 4._
 
 ## Step 2: Create an icon and a banner.
 The icon and the banner will be displayed when it is approved in the directory.
@@ -151,7 +147,7 @@ If you ever have a **screenshot** it must also be `.jpg` or `.png` and a has a f
 ## Step 3: Zip the plugin file and the readme.txt
 The zip file should look like this.
 
-```txt
+```text
 your-plugin-name.zip
 |--your-plugin-name-folder
 --|--your-plugin-file1.php
@@ -165,12 +161,10 @@ Inside the zip archive is a folder with the plugin name with no whitespaces (use
 Go to [this link](https://wordpress.org/plugins/developers/add/) and upload the zip file you have created.
 
 ![add-plugin-1](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/add-plugin-1.jpg)
-
-*Picture 4.1. Add your plugin.*
+_Picture 4.1. Add your plugin._
 
 ![add-plugin-2](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/add-plugin-2.jpg)
-
-*Picture 4.2. Pending request.*
+_Picture 4.2. Pending request._
 
 ## Step 5: Save your SVN repository link.
 If your plugin is approved, then you will receive a congratulatory message containing your SVN repository link.
@@ -178,14 +172,13 @@ If your plugin is approved, then you will receive a congratulatory message conta
 The link looks like this `https://plugins.svn.wordpress.org/your-plugin-name`.
 
 ![plugin-congrats](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/plugin-congrats.jpg)
-
-*Picture 5.1. Congratulatory message.*
+_Picture 5.1. Congratulatory message._
 
 ## Step 6: Upload your plugin to the SVN repository.
 Open your **TortoiseSVN Repository browser** and enter your SVN repository link.
 
 You should see four (4) directories.
-```txt
+```text
 assets/
 branches/
 tags/
@@ -196,22 +189,19 @@ The **assets** folder should contain the graphics for your plugin. You should up
 
 The **branches** folder is like a playground where you can do testing of your code before releasing it.
 
-The **tags** folder is like a folder for different versions of your plugin, just in case, your update fails then you can restore your plugin to the previous version uploaded in the tags folder.
+The **tags** folder is like a folder for different versions of your plugin, just in case, your update fails then you can restore your plugin to the previous version uploaded in the tags' folder.
 
 The **trunk** folder is the live version of your plugin. This is where you will upload your plugin files together with your **readme.txt** file. The files you have submitted for review should be uploaded here.
 
 ![svn-1](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/svn-1.jpg)
-
-*Picture 6.1. Plugin files (left), svn repository (right)*
+_Picture 6.1. Plugin files (left), svn repository (right)_
 
 ![svn-2](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/svn-2.jpg)
-
-*Picture 6.2. File Upload.*
+_Picture 6.2. File Upload._
 
 Right-click to the folder and click **Add file** to upload your file.
 
 ![svn-3](/assets/images/posts/how-to-upload-your-plugin-to-wordpress-plugin-directory/svn-3.jpg)
-
-*Picture 6.3. Enter a description for every file you upload.*
+_Picture 6.3. Enter a description for every file you upload._
 
 That’s it, just make sure that you upload your file to the right directory and it should reflect almost immediately if you search for your WordPress plugin in the directory.

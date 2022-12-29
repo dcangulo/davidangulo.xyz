@@ -11,17 +11,13 @@ order: 4
 
 ## Screenshots
 ![home](/assets/images/portfolio/im-carla/home.jpg)
-
-*Picture 1: Homepage*
+_Picture 1: Homepage_
 
 ![works](/assets/images/portfolio/im-carla/works.jpg)
-
-*Picture 2: Works*
+_Picture 2: Works_
 
 ![about](/assets/images/portfolio/im-carla/about.jpg)
-
-*Picture 3: About*
+_Picture 3: About_
 
 ![contact](/assets/images/portfolio/im-carla/contact.jpg)
-
-*Picture 4: Contact*
+_Picture 4: Contact_

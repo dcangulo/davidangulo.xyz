@@ -11,5 +11,4 @@ order: 6
 
 ## Screenshots
 ![home](/assets/images/portfolio/yucca-wash/home.png)
-
-*Picture 1: Homepage*
+_Picture 1: Homepage_

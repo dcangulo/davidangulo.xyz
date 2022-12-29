@@ -5,12 +5,12 @@ title: 'Get the filesize of base64 file'
 ---
 In the previous post, we have learned to [attach a base64 file on ActiveStorage in Rails](/posts/attach-base64-file-on-activestorage-rails).
 
-The another dilemma that I have encoutered is how to validate the filesize of the uploaded files that are encoded in base64.
+The another dilemma that I have encountered is how to validate the filesize of the uploaded files that are encoded in base64.
 
 Lucky for us that there is a simple formula to get the filesize of a base64 file in bytes.
 
 ## The formula
-```txt
+```text
 a = (b * (3 / 4)) - c
 ```
 

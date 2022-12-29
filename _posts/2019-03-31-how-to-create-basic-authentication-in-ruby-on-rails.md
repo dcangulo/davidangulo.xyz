@@ -26,11 +26,12 @@ class CreateUsers < ActiveRecord::Migration[5.2]
   end
 end
 ```
+{: file='db/migrate/xxxxx_create_users.rb' }
 
 Return to your terminal and run:
 
-```sh
-rake db:migrate
+```console
+$ rake db:migrate
 ```
 
 This will create a users table in the database with columns username and password digest.
@@ -42,8 +43,8 @@ In this tutorial, we will be using `User` as the model. Feel free to change it o
 
 Run the following command in the terminal:
 
-```sh
-rails g migration add_password_digest_to_users
+```console
+$ rails g migration add_password_digest_to_users
 ```
 
 This will create a file in `db/migrate/xxxxx_add_password_digest_to_users.rb`
@@ -57,11 +58,12 @@ class AddPasswordDigestToUsers < ActiveRecord::Migration[5.2]
   end
 end
 ```
+{: file='db/migrate/xxxxx_add_password_digest_to_users.rb' }
 
 Return to your terminal and run:
 
-```sh
-rake db:migrate
+```console
+$ rake db:migrate
 ```
 
 This will add a string column `password_digest` to your users table in the database.
@@ -71,8 +73,8 @@ In this step, you may notice that `ActiveRecord::Migration[5.2]` has `5.2` in it
 
 You might want to check your Rails version by running the following command in the terminal:
 
-```sh
-rails -v
+```console
+$ rails -v
 ```
 
 This tutorial is created using **Rails 5.2.3**.
@@ -95,6 +97,7 @@ Rails.application.routes.draw do
   delete '/sign-out' => 'sessions#destroy' # THIS WILL BE THE PROCESS OF SIGNING OUT THE USER
 end
 ```
+{: file='config/routes.rb' }
 
 ## Step 3: Creating controllers for the routes.
 At this point, our app will raise an error because the routes we defined doesn’t have a matching controller.
@@ -103,10 +106,10 @@ We can see that we used three (3) different controllers in Step 2. These are the
 
 To create a matching controller for these routes you can run the following command in the terminal. One (1) at a time.
 
-```sh
-rails g controller dashboard
-rails g controller users
-rails g controller sessions
+```console
+$ rails g controller dashboard
+$ rails g controller users
+$ rails g controller sessions
 ```
 
 This will create files in `app/controllers` directory.
@@ -117,6 +120,7 @@ In the dashboard controller `app/controllers/dashboard_controller.rb` add the fo
 def index
 end
 ```
+{: file='app/controllers/dashboard_controller.rb' }
 
 In the users controller `app/controllers/users_controller.rb` add the following method:
 
@@ -127,6 +131,7 @@ end
 def create
 end
 ```
+{: file='app/controllers/users_controller.rb' }
 
 In the sessions controller `app/controllers/sessions_controller.rb` add the following method:
 
@@ -140,6 +145,7 @@ end
 def destroy
 end
 ```
+{: file='app/controllers/sessions_controller.rb' }
 
 If you observe the routes, it does not only matches to the controller but also matches to the methods in that controller.
 
@@ -151,6 +157,7 @@ In the `app/views/dashboard/index.html.erb` paste the following code (create the
 ```html
 DASHBOARD
 ```
+{: file='app/views/dashboard/index.html.erb' }
 
 This page will simply return a text **DASHBOARD** when `/dashboard` is accessed in the browser.
 
@@ -162,6 +169,7 @@ In your `app/controllers/users_controller.rb`, inside the new method, add the fo
 ```ruby
 @user = User.new
 ```
+{: file='app/controllers/users_controller.rb' }
 
 In the `app/views/users/new.html.erb` paste the following code (create the file if it does not exists):
 
@@ -186,6 +194,7 @@ In the `app/views/users/new.html.erb` paste the following code (create the file 
   <%= f.submit %>
 <% end %>
 ```
+{: file='app/views/users/new.html.erb' }
 
 This will show an HTML form when we access the link `/sign-up` in our browser that will make a `POST` request to `/save-user` when submitted.
 
@@ -200,6 +209,7 @@ def user_params
   params.require(:user).permit :username, :password, :password_confirmation
 end
 ```
+{: file='app/controllers/users_controller.rb' }
 
 This is to let to know that our app only permits `username`, `password`, and `password_confirmation` which is coming from our form to prevent malicious parameters to be processed.
 
@@ -215,6 +225,7 @@ else
   redirect_to '/sign-up'
 end
 ```
+{: file='app/controllers/users_controller.rb' }
 
 Basically, we are just creating a new instance of `User` and its parameters.
 
@@ -239,6 +250,7 @@ In the `app/views/sessions/new.html.erb` paste the following code (create the fi
   <%= f.submit %>
 <% end %>
 ```
+{: file='app/views/sessions/new.html.erb' }
 
 Now that we created the form, we now have to authenticate the credentials if it matches a record in the database.
 
@@ -254,6 +266,7 @@ else
   redirect_to '/'
 end
 ```
+{: file='app/controllers/sessions_controller.rb' }
 
 What the code does is that it finds the user with the supplied username and authenticates its password.
 
@@ -267,6 +280,7 @@ session[:user_id] = nil
 
 redirect_to '/'
 ```
+{: file='app/controllers/sessions_controller.rb' }
 
 We are just going to set the `session[:user_id]` that we defined in the sign up and sign in back to its original value which is `nil` and redirects back the user to the sign in page.
 
@@ -284,6 +298,7 @@ def authorize
   redirect_to '/' unless current_user
 end
 ```
+{: file='app/controllers/application_controller.rb' }
 
 A helper method is a method that we can access in our views. The helper method current user holds the data of the currently authenticated user.
 
@@ -301,6 +316,7 @@ class DashboardController < ApplicationController
   end
 end
 ```
+{: file='app/controllers/dashboard_controller.rb' }
 
 This simply calls authorize method and redirects back to the user to the sign in page if no user is authenticated.
 
@@ -320,6 +336,7 @@ class DashboardController < ApplicationController
   end
 end
 ```
+{: file='app/controllers/dashboard_controller.rb' }
 
 This will authenticate not just the index method but also `method1` and `method2`.
 
@@ -337,6 +354,7 @@ In your `app/views/layouts/application.html.erb`, add the following inside the `
 <br>
 <br>
 ```
+{: file='app/views/layouts/application.html.erb' }
 
 What it does is printing the name of user and a sign out link if it’s authenticated and sign in and sign up links if it’s unauthenticated.
 
@@ -348,13 +366,14 @@ In your `Gemfile` uncomment the following:
 ```ruby
 gem 'bcrypt', '~> 3.1.7'
 ```
+{: file='Gemfile' }
 
 But if it does not exists, add it instead.
 
 In your terminal run:
 
-```sh
-bundle install
+```console
+$ bundle install
 ```
 
 In your `app/models/user.rb`, add the following:
@@ -364,12 +383,13 @@ class User < ApplicationRecord
   has_secure_password
 end
 ```
+{: file='app/models/user.rb' }
 
 ## Step 11: Run the app.
 In your terminal run:
 
-```sh
-rails s
+```console
+$ rails s
 ```
 
 You should be able to see the sign in page as your startup page if you access [http://localhost:3000/](http://localhost:3000/) in your browser.

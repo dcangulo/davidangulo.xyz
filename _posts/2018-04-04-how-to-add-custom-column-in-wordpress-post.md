@@ -11,7 +11,7 @@ You might have noticed that there are six (6) default columns in the WordPress p
 
 The goal of this tutorial is to add another column that will show the date when the post was last modified.
 
-## Step 1: Setup the column header.
+## Step 1: Set up the column header.
 This will show the name that will appear as the header in the table. It will also hook our function to WordPress.
 
 ```php
@@ -25,7 +25,7 @@ function column_head($columns) {
 
 In this example, we would be naming our custom column as **Last Modified Date**.
 
-## Step 2: Setup the column content.
+## Step 2: Set up the column content.
 Now that we have the header, we must put something in the table data. It can be anything you want.
 
 ```php

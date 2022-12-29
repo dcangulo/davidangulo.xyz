@@ -11,13 +11,10 @@ order: 8
 
 ## Screenshots
 ![home](/assets/images/portfolio/dencio/home.png)
-
-*Picture 1: Homepage*
+_Picture 1: Homepage_
 
 ![about](/assets/images/portfolio/dencio/about.png)
-
-*Picture 2: About*
+_Picture 2: About_
 
 ![contact](/assets/images/portfolio/dencio/contact.png)
-
-*Picture 3: Contact*
+_Picture 3: Contact_

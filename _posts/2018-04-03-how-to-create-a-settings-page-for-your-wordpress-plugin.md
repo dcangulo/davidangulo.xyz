@@ -9,7 +9,7 @@ Whether the plugin that we are creating is small or big, sometimes we just need 
 
 This tutorial will guide you on how to do it in your WordPress plugin.
 
-## Step 1: Setup the hook for your settings page.
+## Step 1: Set up the hook for your settings page.
 
 ```php
 add_action('admin_menu', 'registerOptionPage');
