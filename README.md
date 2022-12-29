@@ -11,7 +11,14 @@ Personal Jekyll Blog
 * `git clone git@github.com:dcangulo/davidangulo.xyz.git davidangulo`
 * `cd davidangulo`
 * `bundle install`
-* `bundle exec jekyll serve`
+
+## Run
+* `bundle exec jekyll serve` (development mode)
+* `JEKYLL_ENV=production bundle exec jekyll serve` (production mode)
+
+## Build
+* `bundle exec jekyll build` (development mode)
+* `JEKYLL_ENV=production bundle exec jekyll build` (production mode)
 
 ## License
 ### Posts
