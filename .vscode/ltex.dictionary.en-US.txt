@@ -17,3 +17,4 @@ sidekiq
 redis
 npm
 FullCalendar
+hacky
