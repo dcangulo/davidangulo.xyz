@@ -85,7 +85,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-theme-chirpy (~> 5.4)
-  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.1.0p0
