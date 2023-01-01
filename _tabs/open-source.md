@@ -19,6 +19,7 @@ I also maintain some open source projects that may be useful for some.
 * [Read `.ruby-version` file in `Gemfile` #35410](https://github.com/facebook/react-native/pull/35410)
 * [Rename `POST_NOTIFICATION` to `POST_NOTIFICATIONS` #35533](https://github.com/facebook/react-native/pull/35533)
 * [remove hermes note #35555](https://github.com/facebook/react-native/pull/35555)
+* [fix: pod install with --project-directory #35754](https://github.com/facebook/react-native/pull/35754)
 
 ### [rails/rails](https://github.com/rails/rails)
 * [Add strict loading for active storage #40623](https://github.com/rails/rails/pull/40623)
