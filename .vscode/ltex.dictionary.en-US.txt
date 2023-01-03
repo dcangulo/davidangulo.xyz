@@ -19,3 +19,5 @@ npm
 FullCalendar
 hacky
 Trix
+non-www
+www
