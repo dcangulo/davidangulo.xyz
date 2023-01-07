@@ -21,3 +21,4 @@ hacky
 Trix
 non-www
 www
+giscus
