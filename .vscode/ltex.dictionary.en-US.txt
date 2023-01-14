@@ -22,3 +22,5 @@ Trix
 non-www
 www
 giscus
+PKCE
+pixy
