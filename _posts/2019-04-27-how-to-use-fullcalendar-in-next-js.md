@@ -3,7 +3,7 @@ categories: ['Website Development']
 tags: ['FullCalendar', 'JavaScript', 'Next.js', 'React']
 title: 'How to use FullCalendar in Next.js'
 ---
-> This tutorial has been updated for **React 18.2**, **Next.js v13**, and **FullCalendar v6**. If you are looking for the older version of this tutorial, you can access it [here](https://github.com/dcangulo/davidangulo.xyz/blob/8feed40d8963ae36c8a215eb602af4abb131407c/_posts/2019-04-27-how-to-use-fullcalendar-in-next-js.md).
+> This tutorial has been updated for **React v18**, **Next.js v13**, and **FullCalendar v6**. If you are looking for the older version of this tutorial, you can access it [here](https://github.com/dcangulo/davidangulo.xyz/blob/8feed40d8963ae36c8a215eb602af4abb131407c/_posts/2019-04-27-how-to-use-fullcalendar-in-next-js.md).
 {: .prompt-info }
 
 In this tutorial, we would be learning on how to use FullCalendar in Next.js.
@@ -31,7 +31,7 @@ Now, let’s install FullCalendar to our project. Run the following command in t
 $ yarn add @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid
 ```
 
-## Step 3: Create your own no SSR FullCalendar component
+## Step 3: Create your own FullCalendar component
 Let’s start by creating a directory for our components. Run the following commands in the terminal.
 
 ```console
@@ -41,39 +41,19 @@ $ touch components/fullcalendar.js
 
 In the file `components/fullcalendar.js`, paste the following.
 ```jsx
-import { useEffect, useState } from 'react';
-import dynamic from 'next/dynamic';
-
-const loadingComponent = () => <div>Loading ...</div>;
-const CalendarComponent = dynamic(() => import('@fullcalendar/react'), {
-  ssr: false,
-  loading: loadingComponent,
-});
+import Calendar from '@fullcalendar/react';
+import dayGrid from '@fullcalendar/daygrid';
+import timeGrid from '@fullcalendar/timegrid';
 
 export default function FullCalendar(props) {
-  const [plugins, setPlugins] = useState([]);
-
-  useEffect(() => {
-    (async () => {
-      const dayGrid = (await import('@fullcalendar/daygrid')).default;
-      const timeGrid = (await import('@fullcalendar/timegrid')).default;
-
-      setPlugins([dayGrid, timeGrid]);
-    })();
-  }, []);
-
-  if (plugins.length === 0) return loadingComponent();
-
-  return <CalendarComponent plugins={plugins} {...props} />;
+  return <Calendar plugins={[dayGrid, timeGrid]} {...props} />;
 }
 ```
 {: file='components/fullcalendar.js' }
 
-The problem that we have is that Next.js renders our page in the server. In the docs, there is a way to [dynamically import packages with no ssr](https://nextjs.org/docs/advanced-features/dynamic-import#with-no-ssr).
+That seems easy. Yes, it's easy now with **React v18**, **Next.js v13**, and **FullCalendar v6**. In the past, we have to jump on different hoops setting this up.
 
-We simply imported the `FullCalendar` component dynamically using Next.js’s dynamic function with an attribute `ssr: false` to make sure that it is not rendered on the server.
-
-We also imported it in React’s `useEffect()` hook just to be sure that the `window` is already defined.
+If you're interested on how to set this up on the previous versions you may read it [here](https://github.com/dcangulo/davidangulo.xyz/blob/8feed40d8963ae36c8a215eb602af4abb131407c/_posts/2019-04-27-how-to-use-fullcalendar-in-next-js.md).
 
 ## Step 4: Use our own FullCalendar component
 In the file `pages/index.js`, paste the following.
