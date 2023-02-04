@@ -24,6 +24,7 @@ $ yarn add react-native-outside-press
 
 ## Step 3: Using the module.
 Wrap your app with `EventProvider`.
+{% raw %}
 ```jsx
 import { EventProvider } from 'react-native-outside-press';
 
@@ -35,12 +36,12 @@ export default function App() {
   );
 }
 ```
+{% endraw %}
 
 The `EventProvider` component accepts all [View's props](https://reactnative.dev/docs/view#props).
 
 Then wrap every component you want to detect outside press with `OutsidePressHandler`.
-
-
+{% raw %}
 ```jsx
 import { View } from 'react-native';
 import OutsidePressHandler from 'react-native-outside-press';
@@ -57,6 +58,7 @@ export default function MyComponent() {
   );
 }
 ```
+{% endraw %}
 
 The `OutsidePressHandler` components accepts all [View's props](https://reactnative.dev/docs/view#props) with 2 additional props named `onOutsidePress` and `disabled`.
 
