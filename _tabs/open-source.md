@@ -48,6 +48,7 @@ I also maintain some open source projects that may be useful for some.
 
 ### [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob)
 * [chore: update LICENSE to 2022 #226](https://github.com/callstack/react-native-builder-bob/pull/226)
+* [feat: make year dynamic #354](https://github.com/callstack/react-native-builder-bob/pull/354)
 
 ### [react-native-community/directory](https://github.com/react-native-community/directory)
 * [Add react-native-pkce-challenge #477](https://github.com/react-native-community/directory/pull/477)
