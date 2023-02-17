@@ -25,3 +25,6 @@ giscus
 PKCE
 pixy
 params
+hardcode
+dotenv
+hardcoded
