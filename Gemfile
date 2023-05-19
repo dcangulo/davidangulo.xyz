@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 ruby File.read(File.join(__dir__, '.ruby-version')).strip
 
-gem 'jekyll-theme-chirpy', '~> 5.5', '>= 5.5.2'
+gem 'jekyll-theme-chirpy', '~> 6.0'
 
 # Lock jekyll-sass-converter to 2.x on Linux-musl
 if RUBY_PLATFORM =~ /linux-musl/
