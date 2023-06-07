@@ -20,6 +20,8 @@ I also maintain some open source projects that may be useful for some.
 * [Rename `POST_NOTIFICATION` to `POST_NOTIFICATIONS` #35533](https://github.com/facebook/react-native/pull/35533)
 * [remove hermes note #35555](https://github.com/facebook/react-native/pull/35555)
 * [fix: pod install with --project-directory #35754](https://github.com/facebook/react-native/pull/35754)
+* [Convert FakeRCTEventEmitter to Kotlin #37733](https://github.com/facebook/react-native/pull/37733)
+* [Convert InteropModuleRegistryTest to Kotlin #37735](https://github.com/facebook/react-native/pull/37735)
 
 ### [rails/rails](https://github.com/rails/rails)
 * [Add strict loading for active storage #40623](https://github.com/rails/rails/pull/40623)
@@ -49,6 +51,7 @@ I also maintain some open source projects that may be useful for some.
 ### [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob)
 * [chore: update LICENSE to 2022 #226](https://github.com/callstack/react-native-builder-bob/pull/226)
 * [feat: make year dynamic #354](https://github.com/callstack/react-native-builder-bob/pull/354)
+* [fix: typescript 5 compatibility #374](https://github.com/callstack/react-native-builder-bob/pull/374)
 
 ### [react-native-community/directory](https://github.com/react-native-community/directory)
 * [Add react-native-pkce-challenge #477](https://github.com/react-native-community/directory/pull/477)
